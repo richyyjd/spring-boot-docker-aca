@@ -11,7 +11,7 @@ mvn clean compile package
 docker build -t spring-boot-docker-aca .
 
 ### step 4, test the docker image
-docker run -p 8080:8080 spring-boot-docker-aca -d
+docker run -p 8080:8080 -d spring-boot-docker-aca
 
 ### step 5, open your web browser
 http://localhost:8080/
